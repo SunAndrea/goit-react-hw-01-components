@@ -9,7 +9,7 @@ import PropTypes from 'prop-types';
 const Statistics = ({ title, stats }) => {
   return (
     <StatsSection>
-      <StatsTitle>{title}</StatsTitle>
+      {!!title && <StatsTitle>{title}</StatsTitle>}
 
       <StatsList>
         {stats.map(item => {
