@@ -17,7 +17,7 @@ const FriendsList = ({ friends }) => {
   );
 };
 
-FriendsList.PropTypes = {
+FriendsList.propTypes = {
   friends: PropTypes.array,
 };
 export default FriendsList;

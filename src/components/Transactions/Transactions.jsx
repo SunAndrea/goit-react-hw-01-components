@@ -27,7 +27,7 @@ const Transactions = ({ items }) => {
   );
 };
 
-Transactions.Prototypes = {
+Transactions.prototypes = {
   items: PropTypes.object,
 };
 export default Transactions;

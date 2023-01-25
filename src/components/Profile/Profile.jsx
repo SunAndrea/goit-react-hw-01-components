@@ -44,11 +44,11 @@ const Profile = ({ username, tag, location, avatar, stats }) => {
   );
 };
 
-Profile.PropTypes = {
+Profile.propTypes = {
   username: PropTypes.string,
   tag: PropTypes.string,
   location: PropTypes.string,
-  stats: PropTypes.string,
+  stats: PropTypes.object,
   avatar: PropTypes.string,
 };
 export default Profile;
