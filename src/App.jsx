@@ -1,15 +1,7 @@
-// import Profile from "./components/Profile/Profile";
-// import Statiscs from "./components/Statistics/Statistics";
-// import FriendsList from "./components/FriendList/FriendList";
-// import Transactions from "./components/Transactions/Transactions";
 import Profile from 'components/Profile/Profile';
 import Statistics from 'components/Statistics/Statistics';
 import FriendsList from 'components/FriendList/FriendList';
 import Transactions from 'components/Transactions/Transactions';
-// import user from './props/user.json';
-// import data from './props/data.json';
-// import friends from './props/friends.json';
-// import transactions from './props/transactions.json';
 
 import user from './props/user.json';
 import data from './props/data.json';
