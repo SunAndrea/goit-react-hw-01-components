@@ -19,6 +19,8 @@ export const TableItem = styled.tbody`
 
       case 'withdrawal':
         return 'azure';
+      default:
+        return 'green';
     }
   }};
 `;
