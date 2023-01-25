@@ -1,8 +1,7 @@
 import { Table, TableItem } from './Transactions.styled';
 import PropTypes from 'prop-types';
 
-const Transactions = ({ items }) => {
-  console.log(items);
+const TransactionsHistory = ({ items }) => {
   return (
     <Table>
       <thead>
@@ -27,7 +26,7 @@ const Transactions = ({ items }) => {
   );
 };
 
-Transactions.prototypes = {
+TransactionsHistory.prototypes = {
   items: PropTypes.object,
 };
-export default Transactions;
+export default TransactionsHistory;
