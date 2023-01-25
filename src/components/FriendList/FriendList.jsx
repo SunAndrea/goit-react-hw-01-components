@@ -1,4 +1,6 @@
-import { FriendCard, OnlineStatus, AvatarImg } from "./FriendsList.styled";
+import { FriendCard, OnlineStatus, AvatarImg } from './FriendsList.styled';
+import PropTypes from 'prop-types';
+
 const FriendsList = ({ friends }) => {
   return (
     <ul>
@@ -15,4 +17,7 @@ const FriendsList = ({ friends }) => {
   );
 };
 
+FriendsList.PropTypes = {
+  friends: PropTypes.array,
+};
 export default FriendsList;

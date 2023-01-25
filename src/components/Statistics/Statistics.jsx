@@ -4,6 +4,8 @@ import {
   StatsSection,
   StatsList,
 } from './Statistics.styled';
+import PropTypes from 'prop-types';
+
 const Statistics = ({ title, stats }) => {
   return (
     <StatsSection>
@@ -23,4 +25,8 @@ const Statistics = ({ title, stats }) => {
   );
 };
 
+Statistics.PropTypes = {
+  title: PropTypes.string,
+  stats: PropTypes.array,
+};
 export default Statistics;

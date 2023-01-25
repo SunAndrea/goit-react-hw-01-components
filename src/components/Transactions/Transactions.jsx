@@ -1,4 +1,5 @@
 import { Table, TableItem } from './Transactions.styled';
+import PropTypes from 'prop-types';
 
 const Transactions = ({ items }) => {
   console.log(items);
@@ -26,4 +27,7 @@ const Transactions = ({ items }) => {
   );
 };
 
+Transactions.Prototypes = {
+  items: PropTypes.object,
+};
 export default Transactions;

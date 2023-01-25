@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 import {
   ProfileWrapper,
   UserAvatar,
@@ -42,4 +44,11 @@ const Profile = ({ username, tag, location, avatar, stats }) => {
   );
 };
 
+Profile.PropTypes = {
+  username: PropTypes.string,
+  tag: PropTypes.string,
+  location: PropTypes.string,
+  stats: PropTypes.string,
+  avatar: PropTypes.string,
+};
 export default Profile;
